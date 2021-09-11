@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Timer</title>
+</head>
+
+<body>
+    <div id="timer">03:00:00</div>
+    <button onclick="timer.start();">Start</button>
+    <button onclick="timer.pause();">Pause</button>
+    <button onclick="timer.reset();">Reset</button>
+    <script src="timer.js"></script>
+    <script>
+        var timer = new Timer(document.getElementById('timer'));
+    </script>
+</body>
+
+</html>
